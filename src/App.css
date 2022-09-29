@@ -30,4 +30,22 @@ section {
   height: 40vh;
 }
 
+#about, #projects {
+  background-color: #CDBFB6;
+}
 
+.text-about {
+  padding: 0 20px;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.text-about p {
+  text-align: justify;
+}
+
+.listas {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
