@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.header {
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -26,10 +26,6 @@
   margin: 0 .5em;
 }
 
-section {
-  height: 40vh;
-}
-
 #about, #projects {
   background-color: #CDBFB6;
 }
@@ -48,4 +44,20 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.projetos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.projeto {
+  width: 25em;
+  background-color: #B199F3;
+  margin: 1em;
+}
+.projeto a {
+  margin: 0 10px;
 }
