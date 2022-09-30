@@ -1,5 +1,5 @@
 import logo from '../assets/logo-mario.png';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const HeaderComponent = () => {
   return (
