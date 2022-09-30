@@ -33,7 +33,7 @@ const FooterComponent = () => {
         </div>
       </section>
       <div>
-        <h3>Made with S2 by Mario_Cesar_Dev</h3>
+        <h4>Made with S2 by MarioCesar_Dev</h4>
       </div>
     </div>
   )

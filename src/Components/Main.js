@@ -47,8 +47,8 @@ const MainComponent = () => {
           <h1>Projetos</h1>
           <div className='projetos'>
             <div className='projeto'>
-              <h2>Projeto1 -  Brasileirismo</h2>
-              <p>Resumo do livro</p>
+              <h2>Brasileirismo</h2>
+              <p>Resumo do projeto</p>
               <p>Texto falando do projeto, umas 5 a 10 linhas
                 Texto falando do projeto, umas 5 a 10 linhas
                 Texto falando do projeto, umas 5 a 10 linhas
@@ -59,8 +59,8 @@ const MainComponent = () => {
               <a href='https://github.com/MarioCesarCF/ProjetoDev' target='_blanck'>Repositório</a>
             </div>
             <div className='projeto'>
-              <h2>Projeto2 - Sustenta-Tech</h2>
-              <p>Resumo do livro</p>
+              <h2>Sustenta-Tech</h2>
+              <p>Resumo do projeto</p>
               <p>Texto falando do projeto, umas 5 a 10 linhas
                 Texto falando do projeto, umas 5 a 10 linhas
                 Texto falando do projeto, umas 5 a 10 linhas
@@ -71,8 +71,8 @@ const MainComponent = () => {
               <a href='https://github.com/MarioCesarCF/TechTeamProject' target='_blanck'>Repositório</a>
             </div>
             <div className='projeto'>
-              <h2>Projeto3 - Gênio Quiz</h2>
-              <p>Resumo do livro</p>
+              <h2>Gênio Quiz</h2>
+              <p>Resumo do projeto</p>
               <p>Texto falando do projeto, umas 5 a 10 linhas
                 Texto falando do projeto, umas 5 a 10 linhas
                 Texto falando do projeto, umas 5 a 10 linhas
@@ -84,7 +84,7 @@ const MainComponent = () => {
             </div>
             <div className='projeto'>
               <h2>Projeto4</h2>
-              <p>Resumo do livro</p>
+              <p>Resumo do projeto</p>
               <p>Texto falando do projeto, umas 5 a 10 linhas
                 Texto falando do projeto, umas 5 a 10 linhas
                 Texto falando do projeto, umas 5 a 10 linhas
@@ -95,7 +95,7 @@ const MainComponent = () => {
             </div>
             <div className='projeto'>
               <h2>Projeto5</h2>
-              <p>Resumo do livro</p>
+              <p>Resumo do projeto</p>
               <p>Texto falando do projeto, umas 5 a 10 linhas
                 Texto falando do projeto, umas 5 a 10 linhas
                 Texto falando do projeto, umas 5 a 10 linhas
@@ -106,7 +106,7 @@ const MainComponent = () => {
             </div>
             <div className='projeto'>
               <h2>Projeto6</h2>
-              <p>Resumo do livro</p>
+              <p>Resumo do projeto</p>
               <p>Texto falando do projeto, umas 5 a 10 linhas
                 Texto falando do projeto, umas 5 a 10 linhas
                 Texto falando do projeto, umas 5 a 10 linhas
