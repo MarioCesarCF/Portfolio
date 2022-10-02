@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 570px) {
+ body {
+  width: 100%;
+ }
+}

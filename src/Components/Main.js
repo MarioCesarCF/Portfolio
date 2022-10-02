@@ -1,4 +1,5 @@
 import imgMain from "../assets/team-work3.png";
+import '../styles/main.css'
 
 const MainComponent = () => {
   return (
@@ -17,7 +18,10 @@ const MainComponent = () => {
               <p>Para aperfeiçoamento de softskills trabalho com minha equipe, a TechTeam, em projetos em conjunto, onde aperfeiçoamos habilidades como organização, liderança, comunicação e uso de outras tecnologias que nos ajudam na elaboração dos trabalhos. Inclusive fomos campeões de um hackathon graças a essas habilidades.</p>
             </div>
           </div>
+          <div>
           <img src={imgMain} alt="" />
+          </div>
+          
         </section>
         <section id="skills">
           <h1>Habilidades</h1>

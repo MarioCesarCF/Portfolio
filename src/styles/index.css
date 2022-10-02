@@ -1,0 +1,18 @@
+/*
+Cores
+#E9E9E9 - creme
+#B199F3 - lilas
+#7E99F8 - azul claro
+#3359BB - azul escuro
+#070707 - preto
+#CDBFBF = cinza
+*/
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;  
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #CDBFBF;
+}

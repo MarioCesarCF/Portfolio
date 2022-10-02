@@ -1,0 +1,24 @@
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .social-networks div {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .social-networks div p {
+    padding: 0 10px;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  

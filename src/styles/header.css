@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/matrix2.gif");
+    opacity: 0.9;
+    /* background-color: #444242; */
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+.name_title h1 {
+    font-size: 10em;
+    font-weight: 100;
+    color: #E9E9E9;
+    margin: .5em;
+}
+
+.name_title h2 {
+    font-size: 5em;
+    color: #E9E9E9;
+}
+
+.logo {
+    width: 30em;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #E9E9E9;
+}
+
+.nav h2 {
+    margin: 0 .5em;
+    font-weight: 100;
+}
+
+@media (min-width: 320px) and (max-width: 570px) {
+    .nav h2 {
+        font-size: 16px;
+    }
+}
