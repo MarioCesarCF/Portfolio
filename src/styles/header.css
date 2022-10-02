@@ -29,6 +29,8 @@ header {
 
 .nav {
     display: flex;
+    backdrop-filter: blur(10px);
+    padding: 10px;
 }
 
 .nav a {
@@ -43,6 +45,13 @@ header {
 
 @media (min-width: 320px) and (max-width: 570px) {
     .nav h2 {
-        font-size: 16px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .logo {
+        width: 18em;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 }

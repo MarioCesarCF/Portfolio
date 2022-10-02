@@ -30,11 +30,12 @@ const FooterComponent = () => {
           <div className="social-networks">
             <h3>Redes Sociais</h3>
             <div>   
-              <a href='mailto:mc.fialho1@gmail.com'><ImMail4 size={50} color="#E9E9E9" /></a>           
-            <ImMail4 size={50} color="#E9E9E9" />
-            <GoMarkGithub size={50} color="#E9E9E9" />
-            <BsLinkedin size={50} color="#E9E9E9" />
-            <GrInstagram size={50} color="#E9E9E9" />            
+              <a href='mailto:mc.fialho1@gmail.com'><ImMail4 size={50} color="#3359BB" /></a>           
+              <a href='https://www.linkedin.com/in/dev-mario-cesar/'><BsLinkedin size={50} color="#3359BB" /></a>
+              <a href='https://github.com/MarioCesarCF'><GoMarkGithub size={50} color="#3359BB" /></a>
+              <a href='https://github.com/MarioCesarCF'><GrInstagram size={50} color="#3359BB" /></a>
+            
+                        
             </div>           
           </div>
         </div>
