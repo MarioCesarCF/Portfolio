@@ -1,25 +1,34 @@
+main h1 {
+    font-size: 3em;
+}
+
 #about {
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: row;
+    font-size: 22px;
+    line-height: 1.2em;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
 }
 
 #about,
 #projects {
-    background-color: #CDBFB6;
+    background-color: #070707;
 }
 
 .text-about {
-    padding: 0 30px;
     margin: 0 auto;
 }
 
 .text-about p {
     text-align: justify;
+    margin: 1em;
 }
 
 #about img {
-    width: 40vw;
+    width: 30vw;
 }
 
 .listas {
@@ -37,8 +46,9 @@
 
 .projeto {
     width: 25em;
-    background-color: #B199F3;
+    background-color: #67b943;
     margin: 1em;
+    color: #070707;
 }
 
 .projeto a {

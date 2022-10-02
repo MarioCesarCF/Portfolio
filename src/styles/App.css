@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  color: #42cd07;
+  font-family: 'Orbitron', sans-serif;
 }
 
 @media (min-width: 320px) and (max-width: 570px) {

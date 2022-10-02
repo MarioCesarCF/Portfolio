@@ -1,4 +1,4 @@
-import imgMain from "../assets/team-work3.png";
+import imgMain from "../assets/coding.gif";
 import '../styles/main.css'
 
 const MainComponent = () => {
@@ -8,20 +8,20 @@ const MainComponent = () => {
         <h1>Meu Portfólio</h1>
         <section id="about">
           <div>
-            <h1>Sobre mim</h1>
+            <h2>Sobre mim</h2>
             <div className='text-about'>
-              <p>Sou um cara de família. Gosto de ficar em casa e curtir com meus filhos, minha esposa e alguns poucos,
-                mas ótimos, amigos. Estou focado em conseguir mais qualidade de vida para minha família.</p>
-              <p> Trabalho desde 2011 no setor público, nas áreas de meio ambiente e saúde, mas há quase dois anos recebi
-                bastante apoio de alguns amigos para fazer transição de carreira e ingressar na área de  Tecnologia da Informação. Então comecei a estudar e logo fiquei fascinado por desenvolvimento web! </p>
-              <p>Me dedico aos estudos constantemente e me sinto cada vez mais preparado. Estou cursando a graduação em Tecnologia em Sistemas para Internet - TSI pelo IFES/UNAC. Além da graduação foco meus estudos em Javascript, React, NodeJS, Sass, Bootstrap, MongoDB e PostgreSQL.</p>
-              <p>Para aperfeiçoamento de softskills trabalho com minha equipe, a TechTeam, em projetos em conjunto, onde aperfeiçoamos habilidades como organização, liderança, comunicação e uso de outras tecnologias que nos ajudam na elaboração dos trabalhos. Inclusive fomos campeões de um hackathon graças a essas habilidades.</p>
+              <p>Olá, me chamo Mário Cesar e este é meu portfólio. Seja bem vindo!
+                Sou um cara caseiro e apaixonado por tecnologia. Gosto de criar coisas e resolver problemas.
+              </p>
+              <p>Ingressei na área de TI no ano de 2021 e desde então aprendi bastante, estou cursando a graduação em Tecnologia em Sistemas de Internet e muito feliz e animado com meu progresso. Meus estudos estão focados em: Javascript, React, NodeJS, NestJS, Bootstrap, MongoDB, PostgreSQL, Arquitetura de Software e Code Review.</p>
+
+              <p>Para desenvolvimento de softskills trabalho com minha equipe, a TechTeam, em projetos em conjunto, onde aperfeiçoamos habilidades como organização, liderança e comunicação.</p>
             </div>
           </div>
           <div>
-          <img src={imgMain} alt="" />
+            <img src={imgMain} alt="" />
           </div>
-          
+
         </section>
         <section id="skills">
           <h1>Habilidades</h1>

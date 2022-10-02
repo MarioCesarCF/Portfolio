@@ -1,11 +1,12 @@
 /*
 Cores
 #E9E9E9 - creme
-#B199F3 - lilas
 #7E99F8 - azul claro
 #3359BB - azul escuro
 #070707 - preto
 #CDBFBF = cinza
+#42cd07 - verde brilhante
+#568044 - outro verde
 */
 body {
   margin: 0;
@@ -14,5 +15,5 @@ body {
     sans-serif;  
   padding: 0;
   box-sizing: border-box;
-  background-color: #CDBFBF;
+  background-color: #070707;
 }
