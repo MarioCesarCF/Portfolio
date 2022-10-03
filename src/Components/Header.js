@@ -1,4 +1,4 @@
-import logo from '../assets/1.png';
+import logo from '../assets/logo-mc.png';
 import { Link } from "react-scroll";
 import '../styles/header.css'
 
@@ -6,7 +6,7 @@ import '../styles/header.css'
 const HeaderComponent = () => {
   return (
     <div>      
-      <header>
+      <header id='header'>
       <img className="logo" src={logo} alt="" />
         {/* <div className='name_title'>
           <h1>Mário Cesar</h1>

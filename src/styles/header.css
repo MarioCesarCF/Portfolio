@@ -4,7 +4,6 @@ header {
     justify-content: center;
     background-image: url("../assets/matrix2.gif");
     opacity: 0.9;
-    /* background-color: #444242; */
     width: 100%;
     min-height: 100vh;
     flex-direction: column;

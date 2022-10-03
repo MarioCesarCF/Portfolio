@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  color: #42cd07;
+  color: var(--ligthgrenn);
   /* 
     font-family: 'Orbitron', sans-serif; 
     font-family: 'Quantico', sans-serif;

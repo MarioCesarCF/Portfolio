@@ -1,7 +1,7 @@
 .container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -18,6 +18,42 @@
   flex-direction: column;
 }
 
+form>label {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+label>input {
+  margin-bottom: .5em;
+  height: 1.5em;
+}
+
+label>textarea {
+  margin-bottom: .5em;
+}
+
+form>input {
+  padding: 0.5em;
+  color: var(--black);
+  background-color: var(--gray);
+  border-radius: 0 0.5em;
+  font-size: 1.1rem;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+  margin-top: 0.5em;
+}
+
+form>input:hover {
+  transition: .7s;
+  background-color: var(--ligthgrenn);
+}
+
 .social-icons>a {
   color: var(--gray);
   font-size: 2.6rem;
@@ -26,13 +62,28 @@
 .social-icons>a:hover {
   transition: 0.5s;
   transform: scale(1.4);
-  color: var(--extra);
+  color: var(--creme);
 }
 
 .social-icons>a:not(:last-child) {
   margin-right: 0.5em;
 }
 
+#btn-top {
+  color: var(--creme);
+  font-size: 2rem;
+  position: absolute;
+  text-align: end;
+  width: 45%;
+}
+
 #heart {
   color: red;
+}
+
+@media (min-width: 320px) and (max-width: 530px) {
+  #btn-top {
+    color: var(--creme);
+    font-size: 1.5rem;
+  }
 }
