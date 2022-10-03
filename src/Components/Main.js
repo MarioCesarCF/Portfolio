@@ -23,6 +23,10 @@ const MainComponent = () => {
           </div>
 
         </section>
+        <div className="buttons">
+          <button id="getInTouch">Entre em contato</button>
+          <button id="downloadCV">Baixar CV</button>
+        </div>
         <section id="skills">
           <h1>Habilidades</h1>
           <div className='listas'>
