@@ -30,16 +30,16 @@ const FooterComponent = () => {
           <div className="social-networks">
             <h3>Redes Sociais</h3>
             <div className='social-icons'>   
-              <a href='mailto:mc.fialho1@gmail.com'><ImMail4 size={35} /></a>           
-              <a href='https://www.linkedin.com/in/dev-mario-cesar/'><BsLinkedin size={35} /></a>
-              <a href='https://github.com/MarioCesarCF'><GoMarkGithub size={35} /></a>
-              <a href='https://github.com/MarioCesarCF'><GrInstagram size={35} /></a>
+              <a href='mailto:mc.fialho1@gmail.com'><ImMail4 /></a>           
+              <a href='https://www.linkedin.com/in/dev-mario-cesar/'><BsLinkedin /></a>
+              <a href='https://github.com/MarioCesarCF'><GoMarkGithub /></a>
+              <a href='https://github.com/MarioCesarCF'><GrInstagram /></a>
             </div>           
           </div>
         </div>
       </section>
       <div>
-        <h4>Made with S2 by MarioCesar_Dev</h4>
+        <p>Made with <span id='heart'>&#10084;</span> by MarioCesar_Dev</p>
       </div>
     </div>
   )

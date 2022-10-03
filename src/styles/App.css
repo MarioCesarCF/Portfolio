@@ -5,8 +5,9 @@
     font-family: 'Orbitron', sans-serif; 
     font-family: 'Quantico', sans-serif;
     font-family: 'Special Elite', cursive;
+    font-family: 'Audiowide', cursive;
   */
-  font-family: 'Audiowide', cursive;
+  font-family: 'Quantico', sans-serif;  
 }
 
 @media (min-width: 320px) and (max-width: 570px) {

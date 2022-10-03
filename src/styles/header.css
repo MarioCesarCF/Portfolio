@@ -14,13 +14,13 @@ header {
 .name_title h1 {
     font-size: 10em;
     font-weight: 100;
-    color: #E9E9E9;
+    color: var(--creme);
     margin: .5em;
 }
 
 .name_title h2 {
     font-size: 5em;
-    color: #E9E9E9;
+    color: var(--creme);
 }
 
 .logo {
@@ -37,22 +37,24 @@ header {
 
 .nav a {
     text-decoration: none;
-    color: #E9E9E9;
+    color: var(--creme);
 }
 
 .nav h2 {
-    margin: .3em;
+    margin: 0.5em .4em;
     font-weight: 100;
+    font-size: 1.5rem;
+    font-family: 'Special Elite', cursive;
 }
 
-@media (min-width: 320px) and (max-width: 570px) {
+@media (min-width: 320px) and (max-width: 530px) {
     .nav {
         width: 18em;
     }
     .nav h2 {
-        font-size: 15px;
+        font-size: 0.9rem;
         font-weight: 500;
-        padding: 0.5em 0;
+        padding: 0.5em 0.1em;
     }
     .logo {
         width: 18em;

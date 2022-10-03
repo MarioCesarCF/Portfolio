@@ -1,19 +1,19 @@
-/*
-Cores
-#E9E9E9 - creme
-#7E99F8 - azul claro
-#3359BB - azul escuro
-#070707 - preto
-#b1aaaa = cinza
-#42cd07 - verde brilhante
-#568044 - outro verde
-*/
+* {
+  --creme: #E9E9E9;
+  --black: #070707;
+  --gray: #b1aaaa;
+  --ligthgrenn: #42cd07;
+  --anothergreen: #67b943;
+  --extra: #10b9ec;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;  
+    sans-serif;
   padding: 0;
   box-sizing: border-box;
-  background-color: #070707;
+  background-color: var(--black);
+  font-size: 16px;
 }

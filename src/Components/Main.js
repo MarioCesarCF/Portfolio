@@ -13,11 +13,11 @@ const MainComponent = () => {
       <main>
         <h1>Meu Portfólio</h1>
         <section id="about">
-          <div>
+          <div className="container-text">
             <h2>Sobre mim</h2>
             <div className='text-about'>
-              <p>Olá, me chamo Mário Cesar e este é meu portfólio. Seja bem vindo!
-                Sou um cara caseiro e apaixonado por tecnologia. Gosto de criar coisas e resolver problemas.
+              <p>Olá, me chamo Mário Cesar. Sou um cara caseiro e apaixonado por tecnologia. Gosto de criar coisas e resolver problemas. Este é meu portfólio, seja bem vindo!
+                
               </p>
               <p>Ingressei na área de TI no ano de 2021 e desde então aprendi bastante, estou cursando a graduação em Tecnologia em Sistemas de Internet e muito feliz e animado com meu progresso. Meus estudos estão focados em: Javascript, React, NodeJS, NestJS, Bootstrap, MongoDB, PostgreSQL, Arquitetura de Software e Code Review.</p>
 
@@ -38,7 +38,7 @@ const MainComponent = () => {
           <h2>Habilidades</h2>
           <p>Hard Skills e Soft Skills</p>
           <div className='listas'>
-            <div>
+            
               <ul className="lista">
                 <li className="habilidade">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" />
@@ -60,17 +60,16 @@ const MainComponent = () => {
                   MongoDB<span>7/10</span></li>
                 <li className="habilidade">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" />
-                  GIT<span>8/10</span></li>
-              </ul>
-            </div>
-            <div>
+                  GIT<span>8.5/10</span></li>
+              </ul>           
+            
               <ul className="lista">
                 <li className="habilidade"><img src={teamworkIcon} alt="" />Trabalho em Equipe<span>9/10</span></li>
-                <li className="habilidade"><img src={conversationIcon} alt="" />Comunicação<span>7/10</span></li>
+                <li className="habilidade"><img src={conversationIcon} alt="" />Comunicação<span>7.5/10</span></li>
                 <li className="habilidade"><img src={adaptacaoIcon} alt="" />Adaptabilidade<span>8/10</span></li>
                 <li className="habilidade"><img src={idiomasIcon} alt="" />Inglês<span>5/10</span></li>
               </ul>
-            </div>
+            
           </div>
         </section>
         <section id="projects">
