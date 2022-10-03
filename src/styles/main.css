@@ -31,10 +31,70 @@ main h1 {
     width: 30vw;
 }
 
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#getInTouch, #downloadCV {
+    text-decoration: none;
+    padding: 1em;
+    color: #070707;
+    background-color: #568044;
+    border-radius: 0 0.5em;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+#getInTouch:hover, #downloadCV:hover {
+    transition: .7s;
+    background-color: #53eb12;
+}
+
 .listas {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+
+.lista {
+    display: flex;
+    width: 80vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.habilidade {
+    display: flex;
+    flex-direction: column;
+    background-color: #E9E9E9;
+    padding: 0.5em 0;
+    justify-content: center;
+    align-items: center;
+    width: 15em;
+    list-style: none;
+    border-radius: 10px;
+    border: 5px solid #bbc7b7;
+    color: #070707;
+    margin: 10px;
+}
+
+.habilidade:hover {
+    transition: 0.5s;
+    transform: scaleX(1.1) scaleY(1.1);
+}
+
+.habilidade img {    
+    width: 100px;    
+}
+
+.habilidade span {
+    font-size: 12px;
 }
 
 .projetos {
@@ -62,13 +122,41 @@ main h1 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 0.5em;
+        width: 85%;
+    }
+
+    main h1 {
+        padding: 0 1em;
     }
 
     .text-about {
         padding: 0;
     }
 
+    .text-about p {
+        font-size: 16px;
+    }
+
     #about img {
         width: 80vw;
+    }
+
+    #getInTouch, #downloadCV {
+        font-size: 14px;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    .lista {
+        width: 100vw;
+    }
+
+    .habilidade {
+        font-size: 10px;
+        width: 12em;
+        margin: 10px;
     }
 }

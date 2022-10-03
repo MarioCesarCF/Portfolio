@@ -1,5 +1,11 @@
 import imgMain from "../assets/coding.gif";
-import '../styles/main.css'
+import '../styles/main.css';
+import curriculo from "../assets/CV_MarioCesar.pdf";
+import { Link } from "react-scroll";
+import teamworkIcon from "../assets/teamwork.png";
+import conversationIcon from "../assets/conversation.png";
+import idiomasIcon from "../assets/idiomas.png";
+import adaptacaoIcon from "../assets/adaptacao.png";
 
 const MainComponent = () => {
   return (
@@ -24,35 +30,51 @@ const MainComponent = () => {
 
         </section>
         <div className="buttons">
-          <a href="#contact" id="getInTouch">Entre em contato</a>
-          <a href="../assets/CV_MarioCesar.pdf" download id="downloadCV">Baixar CV</a>
+          <Link to='contact' id="getInTouch" spy={true} smooth={true} offset={0} duration={1500}>Entre em contato</Link>
+
+          <a href={curriculo} download id="downloadCV">Baixar CV</a>
         </div>
         <section id="skills">
-          <h1>Habilidades</h1>
+          <h2>Habilidades</h2>
+          <p>Hard Skills e Soft Skills</p>
           <div className='listas'>
             <div>
-              <ul>
-                <li>Javascript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>React</li>
-                <li>NodeJS</li>
-                <li>MongoDB</li>
+              <ul className="lista">
+                <li className="habilidade">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" />
+                  Javascript <span>9/10</span></li>
+                <li className="habilidade">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" />
+                  HTML<span>8/10</span></li>
+                <li className="habilidade">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" />
+                  CSS<span>7.5/10</span></li>
+                <li className="habilidade">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
+                  React.JS<span>7/10</span></li>
+                <li className="habilidade">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" />
+                  NodeJS<span>7/10</span></li>
+                <li className="habilidade">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="" />
+                  MongoDB<span>7/10</span></li>
+                <li className="habilidade">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" />
+                  GIT<span>8/10</span></li>
               </ul>
             </div>
             <div>
-              <ul>
-                <li>Trabalho em Equipe</li>
-                <li>Comunicação</li>
-                <li>Adaptabilidade</li>
-                <li>Inglês</li>
-                <li>Versionamento com GIT</li>
+              <ul className="lista">
+                <li className="habilidade"><img src={teamworkIcon} alt="" />Trabalho em Equipe<span>9/10</span></li>
+                <li className="habilidade"><img src={conversationIcon} alt="" />Comunicação<span>7/10</span></li>
+                <li className="habilidade"><img src={adaptacaoIcon} alt="" />Adaptabilidade<span>8/10</span></li>
+                <li className="habilidade"><img src={idiomasIcon} alt="" />Inglês<span>5/10</span></li>
               </ul>
             </div>
           </div>
         </section>
         <section id="projects">
-          <h1>Projetos</h1>
+          <h2>Projetos</h2>
           <div className='projetos'>
             <div className='projeto'>
               <h2>Brasileirismo</h2>

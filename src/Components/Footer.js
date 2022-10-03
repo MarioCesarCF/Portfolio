@@ -9,7 +9,7 @@ const FooterComponent = () => {
     <div>
       <section id="contact">
         <h1>Contato</h1>
-        <div className="contact">
+        <div className="container">
           <div className="form-contact">
             <form>
               <label>
@@ -29,13 +29,11 @@ const FooterComponent = () => {
           </div>
           <div className="social-networks">
             <h3>Redes Sociais</h3>
-            <div>   
-              <a href='mailto:mc.fialho1@gmail.com'><ImMail4 size={50} color="#42cd07" /></a>           
-              <a href='https://www.linkedin.com/in/dev-mario-cesar/'><BsLinkedin size={50} color="#42cd07" /></a>
-              <a href='https://github.com/MarioCesarCF'><GoMarkGithub size={50} color="#42cd07" /></a>
-              <a href='https://github.com/MarioCesarCF'><GrInstagram size={50} color="#42cd07" /></a>
-            
-                        
+            <div className='social-icons'>   
+              <a href='mailto:mc.fialho1@gmail.com'><ImMail4 size={35} color="#42cd07" /></a>           
+              <a href='https://www.linkedin.com/in/dev-mario-cesar/'><BsLinkedin size={35} color="#42cd07" /></a>
+              <a href='https://github.com/MarioCesarCF'><GoMarkGithub size={35} color="#42cd07" /></a>
+              <a href='https://github.com/MarioCesarCF'><GrInstagram size={35} color="#42cd07" /></a>
             </div>           
           </div>
         </div>
