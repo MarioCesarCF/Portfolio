@@ -24,8 +24,8 @@ const MainComponent = () => {
 
         </section>
         <div className="buttons">
-          <button id="getInTouch">Entre em contato</button>
-          <button id="downloadCV">Baixar CV</button>
+          <a href="#contact" id="getInTouch">Entre em contato</a>
+          <a href="../assets/CV_MarioCesar.pdf" download id="downloadCV">Baixar CV</a>
         </div>
         <section id="skills">
           <h1>Habilidades</h1>
