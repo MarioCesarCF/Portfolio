@@ -22,9 +22,14 @@
     flex-direction: column;
   }
 
+  .social-icons>a {
+    color: #b1aaaa;
+  }
+
   .social-icons>a:hover {
     transition: 0.5s;
-    transform: scaleX(1.1) scaleY(1.1);
+    transform: scaleX(1.2) scaleY(1.2);
+    color: #E9E9E9;
   }
   
   .social-icons>a:not(:last-child) {
