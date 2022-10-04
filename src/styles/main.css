@@ -107,18 +107,58 @@ main h1 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .projeto {
-    width: 25em;
-    background-color: var(--anothergreen);
+    width: 30em;
+    background-color: var(--creme);
     margin: 1em;
+    color: var(--black);
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 0 0 5px 0;
+}
+
+.projeto>div>h2, .projeto>div>p, .projeto>div>a {   
+    margin: 0 auto;
+    padding: 5px 10px;
+    text-decoration: none;
     color: var(--black);
 }
 
-.projeto a {
-    margin: 0 10px;
+.projeto>div>a {
+    margin: 5px;
 }
+
+#projeto1 {
+    background-image: url(../assets/brasileirismo.png);
+    width: 30em;
+    height: 10em;
+    padding: 5em 0;
+    border-radius: 10px;
+}
+
+#projeto2 {
+    background-image: url(../assets/sustenta1.png);
+    width: 30em;
+    height: 10em;
+    padding: 5em 0;
+    border-radius: 10px;
+}
+
+#projeto3 {
+    background-image: url(../assets/genio-quiz.png);
+    width: 30em;
+    height: 10em;
+    padding: 5em 0;
+    border-radius: 10px;
+}
+
 
 @media (min-width: 320px) and (max-width: 780px) {
     #about {
@@ -163,8 +203,12 @@ main h1 {
         width: 12em;
         margin: 10px;
     }
-}
 
-@media (min-width: 580px) and (max-width: 1200px) {
+    .projeto {
+        width: 20em;
+    }
 
+    #projeto1, #projeto2, #projeto3 {
+        width: 20em;
+    }
 }
