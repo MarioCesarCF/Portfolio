@@ -41,10 +41,8 @@ const FooterComponent = () => {
       </section>
       <Link to='header' spy={true} smooth={true} offset={-20} duration={1500}id='btn-top'><BsFillArrowUpCircleFill /></Link>
       <div>
-        <p>Made with <span id='heart'>&#10084;</span> by MarioCesar_Dev</p>
-        
-      </div>
-      
+        <p>Made with <span id='heart'>&#10084;</span> by MarioCesar_Dev</p>        
+      </div>      
     </div>
   )
 }
