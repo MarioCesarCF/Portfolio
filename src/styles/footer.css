@@ -49,6 +49,7 @@ form>input {
   align-items: center;
   font-family: 'Orbitron', sans-serif;
   margin-top: 0.5em;
+  width: 20em;
 }
 
 form>input:hover {
@@ -76,7 +77,8 @@ form>input:hover {
   font-size: 2rem;
   position: absolute;
   text-align: end;
-  width: 45%;
+  right: 10px;
+  cursor: pointer;
 }
 
 #heart {
@@ -87,5 +89,8 @@ form>input:hover {
   #btn-top {
     color: var(--creme);
     font-size: 1.5rem;
+  }
+  form>input {
+    width: 16em;
   }
 }
