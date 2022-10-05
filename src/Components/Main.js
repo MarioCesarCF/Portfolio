@@ -6,6 +6,8 @@ import teamworkIcon from "../assets/teamwork.png";
 import conversationIcon from "../assets/conversation.png";
 import idiomasIcon from "../assets/idiomas.png";
 import adaptacaoIcon from "../assets/adaptacao.png";
+import { FiExternalLink } from 'react-icons/fi';
+import { VscGithub } from 'react-icons/vsc';
 
 const MainComponent = () => {
   return (
@@ -32,7 +34,7 @@ const MainComponent = () => {
         <div className="buttons">
           <Link to='contact' id="getInTouch" spy={true} smooth={true} offset={0} duration={1500}>Entre em contato</Link>
 
-          <a href={curriculo} download id="downloadCV">Baixar CV</a>
+          <a href={curriculo} id="downloadCV" target='_blanck'>Curriculum Vitae</a>
         </div>
         <section id="skills">
           <h2>Habilidades</h2>
@@ -85,8 +87,8 @@ const MainComponent = () => {
                   Texto falando do projeto, umas 5 a 10 linhas
                   Texto falando do projeto, umas 5 a 10 linhas
                 </p>
-                <a href='https://mariocesarcf.github.io/ProjetoDev/' target='_blanck'>Deploy</a>
-                <a href='https://github.com/MarioCesarCF/ProjetoDev' target='_blanck'>Repositório</a>
+                <a href='https://mariocesarcf.github.io/ProjetoDev/' target='_blanck' className="icon-links"><FiExternalLink /></a>
+                <a href='https://github.com/MarioCesarCF/ProjetoDev' target='_blanck'className="icon-links"><VscGithub /></a>
               </div>
 
             </div>
@@ -100,8 +102,8 @@ const MainComponent = () => {
                   Texto falando do projeto, umas 5 a 10 linhas
                   Texto falando do projeto, umas 5 a 10 linhas
                 </p>
-                <a href='https://mariocesarcf.github.io/TechTeamProject/' target='_blanck'>Deploy</a>
-                <a href='https://github.com/MarioCesarCF/TechTeamProject' target='_blanck'>Repositório</a>
+                <a href='https://mariocesarcf.github.io/TechTeamProject/' target='_blanck'className="icon-links"><FiExternalLink /></a>
+                <a href='https://github.com/MarioCesarCF/TechTeamProject' target='_blanck'className="icon-links"><VscGithub /></a>
               </div>
 
             </div>
@@ -115,8 +117,8 @@ const MainComponent = () => {
                   Texto falando do projeto, umas 5 a 10 linhas
                   Texto falando do projeto, umas 5 a 10 linhas
                 </p>
-                <a href='https://mariocesarcf.github.io/Genio-Quiz-4-Ano/' target='_blanck'>Deploy</a>
-                <a href='https://github.com/MarioCesarCF/Genio-Quiz-4-Ano' target='_blanck'>Repositório</a>
+                <a href='https://mariocesarcf.github.io/Genio-Quiz-4-Ano/' target='_blanck'className="icon-links"><FiExternalLink /></a>
+                <a href='https://github.com/MarioCesarCF/Genio-Quiz-4-Ano' target='_blanck'className="icon-links"><VscGithub /></a>
               </div>
 
             </div>

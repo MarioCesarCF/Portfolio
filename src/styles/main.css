@@ -91,7 +91,7 @@ main h1 {
 
 .habilidade:hover {
     transition: 0.5s;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .habilidade img {    
@@ -128,37 +128,39 @@ main h1 {
     margin: 0 auto;
     padding: 5px 10px;
     text-decoration: none;
-    color: var(--black);
 }
 
 .projeto>div>a {
     margin: 5px;
 }
 
-#projeto1 {
-    background-image: url(../assets/brasileirismo.png);
+#projeto1, #projeto2, #projeto3 {
     width: 30em;
     height: 10em;
     padding: 5em 0;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+#projeto1 {
+    background-image: url(../assets/brasileirismo.png);    
 }
 
 #projeto2 {
-    background-image: url(../assets/sustenta1.png);
-    width: 30em;
-    height: 10em;
-    padding: 5em 0;
-    border-radius: 10px;
+    background-image: url(../assets/sustenta1.png);    
 }
 
 #projeto3 {
-    background-image: url(../assets/genio-quiz.png);
-    width: 30em;
-    height: 10em;
-    padding: 5em 0;
-    border-radius: 10px;
+    background-image: url(../assets/genio-quiz.png);    
 }
 
+.icon-links {
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.icon-links:hover {
+    color: var(--ligthgrenn);
+}
 
 @media (min-width: 320px) and (max-width: 780px) {
     #about {
@@ -204,8 +206,13 @@ main h1 {
         margin: 10px;
     }
 
+    .projetos:last-child {
+        width: 20em;
+    }
+
     .projeto {
         width: 20em;
+        margin: 10px 0;
     }
 
     #projeto1, #projeto2, #projeto3 {
