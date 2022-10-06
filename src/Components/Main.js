@@ -1,6 +1,6 @@
 import imgMain from "../assets/coding.gif";
 import '../styles/main.css';
-import curriculo from "../assets/CV_MarioCesar.pdf";
+// import curriculo from "../assets/CV_MarioCesar.pdf";
 import { Link } from "react-scroll";
 import teamworkIcon from "../assets/teamwork.png";
 import conversationIcon from "../assets/conversation.png";
@@ -34,7 +34,7 @@ const MainComponent = () => {
         <div className="buttons">
           <Link to='contact' id="getInTouch" spy={true} smooth={true} offset={0} duration={1500}>Entre em contato</Link>
 
-          <a href={curriculo} id="downloadCV" target='_blanck'>Curriculum Vitae</a>
+          <a href='https://drive.google.com/file/d/1PRJARpCyTELuK60iTylLa5RloCuFypXL/view?usp=sharing' id="downloadCV" target='_blanck'>Curriculum Vitae</a>
         </div>
         <section id="skills">
           <h2>Habilidades</h2>
