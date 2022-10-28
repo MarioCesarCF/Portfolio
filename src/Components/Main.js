@@ -81,14 +81,9 @@ const MainComponent = () => {
               <div id="projeto1"></div>
               <div>
                 <h2>Brasileirismo</h2>
-                <p>Texto falando do projeto, umas 5 a 10 linhas
-                  Texto falando do projeto, umas 5 a 10 linhas
-                  Texto falando do projeto, umas 5 a 10 linhas
-                  Texto falando do projeto, umas 5 a 10 linhas
-                  Texto falando do projeto, umas 5 a 10 linhas
-                </p>
+                <p>A página do Brasileirismo foi um projeto idealizado por um grupo de estudantes de programação durante o Tech Academy da StartSe, com objetivo de mostrar alguns pontos turísticos interessantes de oitos estados brasileiros. Habilidades utilizadas e aperfeiçoadas: HTML, CSS, Javascript, Git/GitHub e Trabalho em Equipe.</p>
                 <a href='https://mariocesarcf.github.io/ProjetoDev/' target='_blanck' className="icon-links"><FiExternalLink /></a>
-                <a href='https://github.com/MarioCesarCF/ProjetoDev' target='_blanck'className="icon-links"><VscGithub /></a>
+                <a href='https://github.com/MarioCesarCF/ProjetoDev' target='_blanck' className="icon-links"><VscGithub /></a>
               </div>
 
             </div>
@@ -96,14 +91,11 @@ const MainComponent = () => {
               <div id="projeto2"></div>
               <div>
                 <h2>Sustenta-Tech</h2>
-                <p>Texto falando do projeto, umas 5 a 10 linhas
-                  Texto falando do projeto, umas 5 a 10 linhas
-                  Texto falando do projeto, umas 5 a 10 linhas
-                  Texto falando do projeto, umas 5 a 10 linhas
-                  Texto falando do projeto, umas 5 a 10 linhas
+                <p>Durante o hackathon do Tech Academy da StartSe a Tech Team desenvolveu o projeto Sustenta-Tech. A ideia principal era criar uma plataforma online onde produtores de resíduos orgânicos possam se comunicar com parceiros recicladores desses resíduos. Habilidades utilizadas e aperfeiçoadas: HTML, CSS, Javascript, Git/GitHub, NodeJS e MySQL.
+
                 </p>
-                <a href='https://mariocesarcf.github.io/TechTeamProject/' target='_blanck'className="icon-links"><FiExternalLink /></a>
-                <a href='https://github.com/MarioCesarCF/TechTeamProject' target='_blanck'className="icon-links"><VscGithub /></a>
+                <a href='https://mariocesarcf.github.io/TechTeamProject/' target='_blanck' className="icon-links"><FiExternalLink /></a>
+                <a href='https://github.com/MarioCesarCF/TechTeamProject' target='_blanck' className="icon-links"><VscGithub /></a>
               </div>
 
             </div>
@@ -111,14 +103,11 @@ const MainComponent = () => {
               <div id="projeto3"></div>
               <div>
                 <h2>Gênio Quiz</h2>
-                <p>Texto falando do projeto, umas 5 a 10 linhas
-                  Texto falando do projeto, umas 5 a 10 linhas
-                  Texto falando do projeto, umas 5 a 10 linhas
-                  Texto falando do projeto, umas 5 a 10 linhas
-                  Texto falando do projeto, umas 5 a 10 linhas
+                <p>Este Gênio Quiz foi desenvolvido como um desafio para os alunos do 4º ano 1 da Escola Municipal de Ensino Fundamental “Dr. Bolivar de Abreu”, além de explorar os conteúdos passados em sala de aula, algumas perguntas foram baseadas em assuntos diversos e divertidos. O projeto tem com inspiração o Gênio Quiz de André Birnfeld.
+
                 </p>
-                <a href='https://mariocesarcf.github.io/Genio-Quiz-4-Ano/' target='_blanck'className="icon-links"><FiExternalLink /></a>
-                <a href='https://github.com/MarioCesarCF/Genio-Quiz-4-Ano' target='_blanck'className="icon-links"><VscGithub /></a>
+                <a href='https://mariocesarcf.github.io/Genio-Quiz-4-Ano/' target='_blanck' className="icon-links"><FiExternalLink /></a>
+                <a href='https://github.com/MarioCesarCF/Genio-Quiz-4-Ano' target='_blanck' className="icon-links"><VscGithub /></a>
               </div>
 
             </div>

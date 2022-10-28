@@ -124,6 +124,11 @@ main h1 {
     padding: 0 0 5px 0;
 }
 
+.projeto:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
 .projeto>div>h2, .projeto>div>p, .projeto>div>a {   
     margin: 0 auto;
     padding: 5px 10px;
@@ -213,7 +218,7 @@ main h1 {
     .projeto {
         width: 20em;
         margin: 10px 0;
-    }
+    }    
 
     #projeto1, #projeto2, #projeto3 {
         width: 20em;
