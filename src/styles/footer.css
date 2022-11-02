@@ -81,6 +81,11 @@ form>input:hover {
   cursor: pointer;
 }
 
+#btn-top:hover {
+  transition: .7s;
+  color: var(--ligthgrenn);
+}
+
 #heart {
   color: red;
 }

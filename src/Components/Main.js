@@ -2,10 +2,10 @@ import imgMain from "../assets/coding.gif";
 import '../styles/main.css';
 // import curriculo from "../assets/CV_MarioCesar.pdf";
 import { Link } from "react-scroll";
-import teamworkIcon from "../assets/teamwork.png";
-import conversationIcon from "../assets/conversation.png";
+// import teamworkIcon from "../assets/teamwork.png";
+// import conversationIcon from "../assets/conversation.png";
 import idiomasIcon from "../assets/idiomas.png";
-import adaptacaoIcon from "../assets/adaptacao.png";
+// import adaptacaoIcon from "../assets/adaptacao.png";
 import { FiExternalLink } from 'react-icons/fi';
 import { VscGithub } from 'react-icons/vsc';
 
@@ -18,12 +18,20 @@ const MainComponent = () => {
           <div className="container-text">
             <h2>Sobre mim</h2>
             <div className='text-about'>
-              <p>Olá, me chamo Mário Cesar. Sou um cara caseiro e apaixonado por tecnologia. Gosto de criar coisas e resolver problemas. Este é meu portfólio, seja bem vindo!
+            <p>Trabalho desde 2011 no setor público, nas áreas de meio ambiente e saúde.</p>
+
+            <p>Desde 2022 iniciei minha transição de Carreira para TI. Faço graduação em Tecnologia em Sistemas de Internet pelo Instituto Federal do Espírito Santo, participei do bootcamp Tech Academy da StartSe e meus estudos focam em Javascript, React, NodeJS, Bootstrap, MongoDB, PostgreSQL e AWS.</p>
+
+            <p>Tenho interesse em atuar como Desenvolvedor Web Full Stack.</p>
+
+
+
+              {/* <p>Olá, me chamo Mário Cesar. Sou um cara caseiro e apaixonado por tecnologia. Gosto de criar coisas e resolver problemas. Este é meu portfólio, seja bem vindo!
 
               </p>
               <p>Ingressei na área de TI no ano de 2021 e desde então aprendi bastante, estou cursando a graduação em Tecnologia em Sistemas de Internet e muito feliz e animado com meu progresso. Meus estudos estão focados em: Javascript, React, NodeJS, NestJS, Bootstrap, MongoDB, PostgreSQL, Arquitetura de Software e Code Review.</p>
 
-              <p>Para desenvolvimento de softskills trabalho com minha equipe, a TechTeam, em projetos em conjunto, onde aperfeiçoamos habilidades como organização, liderança e comunicação.</p>
+              <p>Para desenvolvimento de softskills trabalho com minha equipe, a TechTeam, em projetos em conjunto, onde aperfeiçoamos habilidades como organização, liderança e comunicação.</p> */}
             </div>
           </div>
           <div>
@@ -38,39 +46,40 @@ const MainComponent = () => {
         </div>
         <section id="skills">
           <h2>Habilidades</h2>
-          <p>Hard Skills e Soft Skills</p>
           <div className='listas'>
 
             <ul className="lista">
               <li className="habilidade">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" />
-                Javascript <span>9/10</span></li>
+                Javascript <span>Intermediário</span></li>
               <li className="habilidade">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" />
-                HTML<span>8/10</span></li>
+                HTML<span>Intermediário</span></li>
               <li className="habilidade">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" />
-                CSS<span>7.5/10</span></li>
+                CSS<span>Intermediário</span></li>
               <li className="habilidade">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
-                React.JS<span>7/10</span></li>
+                React.JS<span>Iniciante</span></li>
               <li className="habilidade">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" />
-                NodeJS<span>7/10</span></li>
+                NodeJS<span>Intermediário</span></li>
               <li className="habilidade">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="" />
-                MongoDB<span>7/10</span></li>
+                MongoDB<span>Iniciante</span></li>
               <li className="habilidade">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" />
-                GIT<span>8.5/10</span></li>
+                GIT<span>Intermediário</span></li>
+                <li className="habilidade">
+                  <img src={idiomasIcon} alt="" />Inglês<span>Intermediário</span></li>
             </ul>
 
-            <ul className="lista">
+            {/* <ul className="lista">
               <li className="habilidade"><img src={teamworkIcon} alt="" />Trabalho em Equipe<span>9/10</span></li>
               <li className="habilidade"><img src={conversationIcon} alt="" />Comunicação<span>7.5/10</span></li>
               <li className="habilidade"><img src={adaptacaoIcon} alt="" />Adaptabilidade<span>8/10</span></li>
-              <li className="habilidade"><img src={idiomasIcon} alt="" />Inglês<span>5/10</span></li>
-            </ul>
+              
+            </ul> */}
 
           </div>
         </section>
@@ -81,7 +90,7 @@ const MainComponent = () => {
               <div id="projeto1"></div>
               <div>
                 <h2>Brasileirismo</h2>
-                <p>A página do Brasileirismo foi um projeto idealizado por um grupo de estudantes de programação durante o Tech Academy da StartSe, com objetivo de mostrar alguns pontos turísticos interessantes de oitos estados brasileiros. Habilidades utilizadas e aperfeiçoadas: HTML, CSS, Javascript, Git/GitHub e Trabalho em Equipe.</p>
+                <p>A página do Brasileirismo foi um projeto idealizado por um grupo de estudantes de programação durante o Tech Academy da StartSe, com objetivo de mostrar alguns pontos turísticos interessantes de oitos estados brasileiros. Habilidades utilizadas e aperfeiçoadas: HTML, CSS, Javascript e Git/GitHub.</p>
                 <a href='https://mariocesarcf.github.io/ProjetoDev/' target='_blanck' className="icon-links"><FiExternalLink /></a>
                 <a href='https://github.com/MarioCesarCF/ProjetoDev' target='_blanck' className="icon-links"><VscGithub /></a>
               </div>
@@ -91,7 +100,7 @@ const MainComponent = () => {
               <div id="projeto2"></div>
               <div>
                 <h2>Sustenta-Tech</h2>
-                <p>Durante o hackathon do Tech Academy da StartSe a Tech Team desenvolveu o projeto Sustenta-Tech. A ideia principal era criar uma plataforma online onde produtores de resíduos orgânicos possam se comunicar com parceiros recicladores desses resíduos. Habilidades utilizadas e aperfeiçoadas: HTML, CSS, Javascript, Git/GitHub, NodeJS e MySQL.
+                <p>Durante o hackathon do Tech Academy a equipe desenvolveu o projeto Sustenta-Tech. A ideia principal era criar uma plataforma online onde produtores de resíduos orgânicos possam se comunicar com parceiros recicladores desses resíduos. Habilidades utilizadas e aperfeiçoadas: HTML, CSS, Javascript, Git/GitHub, NodeJS e MySQL.
 
                 </p>
                 <a href='https://mariocesarcf.github.io/TechTeamProject/' target='_blanck' className="icon-links"><FiExternalLink /></a>
