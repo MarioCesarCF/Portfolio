@@ -42,7 +42,7 @@ const MainComponent = () => {
         <div className="buttons">
           <Link to='contact' id="getInTouch" spy={true} smooth={true} offset={0} duration={1500}>Entre em contato</Link>
 
-          <a href='https://documentcloud.wondershare.com/clientShare/review/bpcFVoayn8Msp0rtjRcN4YxlW2832aZJZZk_pFNlwVJc6jvlkwf6ipHj_ZWlL4PHyQv0ufRddKvsnG3kFhsC-w' id="downloadCV" target='_blanck'>Curriculum Vitae</a>
+          <a href='https://docs.google.com/document/d/1SNH2cVGafoNepDD6Szwa4GLPl_eZwK9W4oV7_z-i27s/edit?usp=sharing' id="downloadCV" target='_blanck'>Curriculum Vitae</a>
         </div>
         <section id="skills">
           <h2>Habilidades</h2>
